@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>PustakMarket | India's #1 Community Book Exchange</title>
+    <meta name="description" content="Buy, sell, and donate new or used books. Connecting Indian readers from Mumbai to Guwahati.">
+    <meta name="keywords" content="NCERT, JEE Prep, UPSC Books, Regional Literature, Used Books India">
+    
+    <meta property="og:title" content="PustakMarket - Read More, Spend Less">
+    <meta property="og:description" content="Join 10,000+ Indian students and readers.">
+    <meta property="og:image" content="https://your-app-url.com/preview.png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+      body { font-family: 'Inter', sans-serif; }
+      .gradient-text {
+        background: linear-gradient(90deg, #2563eb, #7c3aed);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50 text-gray-900">
+
+    <a href="#main-content" class="sr-only focus:not-sr-only p-4 bg-blue-600 text-white absolute">Skip to content</a>
+
+    <div id="root">
+      <div class="flex flex-col items-center justify-center min-h-screen">
+        <div class="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-blue-600"></div>
+        <p class="mt-4 text-gray-500 font-medium italic">Loading PustakMarket...</p>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.tsx"></script>
+
+    <noscript>
+      <div class="p-10 text-center">
+        <h1 class="text-2xl font-bold">Please Enable JavaScript</h1>
+        <p>This marketplace requires JavaScript to handle secure payments and real-time inventory.</p>
+      </div>
+    </noscript>
+
+  </body>
+</html>
